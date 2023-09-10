@@ -1,0 +1,24 @@
+footer {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(172, 58, 172);
+}
+
+@media screen and (max-width: 728px) {
+  footer {
+    margin-top: 10px;
+    font-size: 10pt;
+  }
+}
+
+a {
+   color: rgb(172, 58, 172);
+   text-decoration: none;
+   transition: color 0.3s ease-in-out;
+
+   &:hover {
+    color: rgb(124, 41, 124);
+    text-decoration: underline;
+   }
+ }

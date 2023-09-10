@@ -1,0 +1,34 @@
+.container {
+  height: 600px;
+}
+
+#cat-img {
+  display: block;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px #0000004d;
+  max-height: 500px;
+}
+
+button {
+  display: flex;
+  margin: 1rem auto;
+  border: none;
+  padding: 1rem;
+  background: rgb(172, 58, 172);
+  font-family: "Poppins";
+  font-size: 20pt;
+  color: #fff;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+
+  &:hover {
+    background: rgb(124, 41, 124);
+  }
+}
+
+@media screen and (max-width: 728px) {
+  button {
+    font-size: 14pt;
+  }
+}

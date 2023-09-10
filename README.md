@@ -1,27 +1,37 @@
-# RandomCat
+# Projeto Angular Cat Generator 🐱
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+Este é um projeto Angular simples que utiliza a API "Cat as a Service" para gerar e exibir imagens aleatórias de gatos. Você pode clicar no botão "Gerar Imagem de Gato Aleatória" para carregar uma nova imagem de gato fofinho a cada vez.
 
-## Development server
+## Tecnologias Utilizadas 🛠️
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Angular](https://angular.io/) - O framework Angular foi usado para construir o aplicativo.
+- [Cat as a Service API](https://cataas.com/) - Esta API fornece imagens aleatórias de gatos.
 
-## Code scaffolding
+## Funcionalidades 🐾
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Gere imagens de gatos aleatórias.
+- Atualize a imagem com um simples clique.
 
-## Build
+## Como Usar 🐈
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone este repositório para sua máquina local usando o seguinte comando:
+   `` git clone https://github.com/`gabrielsantos7/Random-Cat.git ``
 
-## Running unit tests
+2. Navegue até o diretório do projeto:
+   `cd Random-Cat` 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Instale as dependências do projeto:
+   `npm install`
 
-## Running end-to-end tests
+4. Inicie o servidor de desenvolvimento:
+   `ng s`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+5. Abra seu navegador e vá para `http://localhost:4200/` para ver o aplicativo em ação.
+6. Clique no botão "Gerar Imagem de Gato Aleatória" para carregar uma nova imagem de gato.
 
-## Further help
+## Pré-requisitos 📋
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Node.js](https://nodejs.org/) - Certifique-se de que o Node.js está instalado em sua máquina.
+- [Angular CLI](https://angular.io/cli) - Você deve ter o Angular CLI instalado globalmente. Se não tiver, você pode instalá-lo usando o comando `npm install -g @angular/cli`.
+
+Divirta-se gerando imagens de gatos aleatórias! 😸🐾

@@ -1,0 +1,8 @@
+<div class="container">
+  <button (click)="updateImg()" class="btn">
+    Gerar imagem de gato aleatória
+  </button>
+
+  <img *ngIf="canShowImg" [src]="imgUrl" alt="Random Cat Image" id="cat-img" />
+
+</div>
